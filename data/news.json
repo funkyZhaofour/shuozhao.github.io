@@ -1,14 +1,12 @@
 [
   {
-    "date": "2025-01-01",
-    "content": "Welcome to my new academic homepage! This template is available on GitHub.",
-    "links": [
-        { "text": "GitHub", "url": "https://github.com/yihangtao/AcaNova-X" }
-    ]
+    "date": "2026-03-31",
+    "content": "I will complete my current position at the Leibniz Institute for Analytical Sciences (ISAS), Germany. I am actively seeking PhD opportunities and research positions in biomedical image analysis, computer vision, and trustworthy AI.",
+    "links": []
   },
   {
-     "date": "2024-12-15",
-     "content": "One paper titled 'A Novel Approach to AI' was accepted to CVPR 2025!",
-     "links": []
+    "date": "2026-03-01",
+    "content": "I am open to PhD applications and research collaborations. If you have relevant opportunities or are interested in my work, please feel free to contact me via email.",
+    "links": []
   }
 ]
