@@ -1,23 +1,132 @@
 [
   {
-    "title": "AcaNova-X: A Modern and Elegant Academic Website Template",
-    "authors": "<strong>Your Name</strong>, Collaborator A, Collaborator B",
-    "venue": "CVPR 2025",
+    "title": "Data Efficiency and Transfer Robustness in Biomedical Image Segmentation: A Study of Redundancy and Forgetting with Cellpose",
+    "authors": "<strong>Shuo Zhao</strong>, Chen J.",
+    "venue": "IEEE BIBM 2025 (Workshop)",
     "year": "2025",
-    "highlight": "Oral",
-    "thumbnail": "assets/publications/placeholder/paper-thumb.png",
+    "highlight": "Workshop",
+    "thumbnail": "",
     "tags": [
-      { "text": "Paper", "link": "#" },
-      { "text": "Code", "link": "#" },
-      { "text": "Project Page", "link": "#" }
+      { "text": "Paper", "link": "#" }
     ]
   },
   {
-    "title": "Another Great Research Work on Machine Learning",
-    "authors": "Collaborator A, <strong>Your Name</strong>, Collaborator B",
-    "venue": "NeurIPS 2024",
+    "title": "Rethinking Deep Learning in Bioimaging through a Data-Centric Lens",
+    "authors": "Chen J., <strong>Shuo Zhao</strong>, et al.",
+    "venue": "npj Imaging",
+    "year": "2025",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "#" }
+    ]
+  },
+  {
+    "title": "PathMR: Multimodal Visual Reasoning for Interpretable Pathology Diagnosis",
+    "authors": "Ye Z., et al., <strong>Shuo Zhao</strong>",
+    "venue": "ICCV 2025 (Submitted)",
+    "year": "2025",
+    "highlight": "Submitted",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "#" }
+    ]
+  },
+  {
+    "title": "Active Learning Pipeline for Biomedical Image Instance Segmentation with Minimal Human Intervention",
+    "authors": "<strong>Shuo Zhao</strong>, Zhou Y., Chen J.",
+    "venue": "BVM 2025 (Springer)",
+    "year": "2025",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "https://github.com/MMV-Lab/AL_BioMed_img_seg" },
+      { "text": "Code", "link": "https://github.com/MMV-Lab/AL_BioMed_img_seg" }
+    ]
+  },
+  {
+    "title": "Arterial Specification Precedes Microvascular Restitution in the Peri-Infarct Cortex",
+    "authors": "Hagemann N., et al., <strong>Shuo Zhao</strong>",
+    "venue": "Journal of Cerebral Blood Flow & Metabolism",
+    "year": "2025",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "#" }
+    ]
+  },
+  {
+    "title": "Inhibition of Tumour Necrosis Factor Alpha Attenuates Shiga Toxin-Induced Brain Pathology",
+    "authors": "Christ R., et al., <strong>Shuo Zhao</strong>",
+    "venue": "Journal of Neuroinflammation",
+    "year": "2025",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "#" }
+    ]
+  },
+  {
+    "title": "2D Label-free Prediction of Multiple Organelles Across Transmitted-light Microscopy Images with Bag-of-Experts",
+    "authors": "Zhou Y., <strong>Shuo Zhao</strong>, et al.",
+    "venue": "bioRxiv",
     "year": "2024",
-    "highlight": "Spotlight",
+    "highlight": "Preprint",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Preprint", "link": "#" }
+    ]
+  },
+  {
+    "title": "AI-powered All-optical Cell Death Pathway Detection in Neutrophils for High-throughput Screening",
+    "authors": "Jung M., et al., <strong>Shuo Zhao</strong>",
+    "venue": "Neutrophil International Symposium",
+    "year": "2024",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Conference", "link": "#" }
+    ]
+  },
+  {
+    "title": "On the Risk of Manual Annotations in 3D Confocal Microscopy Image Segmentation",
+    "authors": "Sonneck J., <strong>Shuo Zhao</strong>, Chen J.",
+    "venue": "ICCV 2023 Workshops",
+    "year": "2023",
+    "highlight": "Workshop",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "#" }
+    ]
+  },
+  {
+    "title": "Biologically Plausible Segmentation with Deep Learning for 3D Confocal Microscopy",
+    "authors": "Sonneck J., <strong>Shuo Zhao</strong>, Chen J.",
+    "venue": "Focus on Microscopy 2023",
+    "year": "2023",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Conference", "link": "#" }
+    ]
+  },
+  {
+    "title": "Thermal Infrared Pedestrian Tracking Using Joint Siamese Network and Exemplar Prediction",
+    "authors": "Zheng L., <strong>Shuo Zhao</strong>, et al.",
+    "venue": "Pattern Recognition Letters",
+    "year": "2020",
+    "highlight": "",
+    "thumbnail": "",
+    "tags": [
+      { "text": "Paper", "link": "#" }
+    ]
+  },
+  {
+    "title": "Infrared Pedestrian Target Tracking Based on Video Prediction",
+    "authors": "Enhan L., Rui Z., <strong>Shuo Zhao</strong>, et al.",
+    "venue": "Journal of Harbin Institute of Technology",
+    "year": "2020",
+    "highlight": "",
     "thumbnail": "",
     "tags": [
       { "text": "Paper", "link": "#" }
