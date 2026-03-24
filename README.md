@@ -1,73 +1,37 @@
-# AcaNova-X: The Next-Gen Academic Homepage Template
+# Shuo Zhao – Academic Homepage
 
-<div align="center">
+This repository hosts my personal academic homepage.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+🌐 Website: https://funkyzhaofour.github.io
 
-</div>
+## 👨‍💻 About Me
 
----
+I am a Research Associate at the Leibniz Institute for Analytical Sciences (ISAS), Germany.  
+My research focuses on biomedical image analysis, computer vision, and trustworthy AI.
 
-## 🌌 Introduction
+I am particularly interested in:
+- Image segmentation
+- Active learning and data-efficient learning
+- Uncertainty-aware and interpretable AI
+- Multimodal AI for healthcare applications
 
-> ***AcaNova-X** represents a fusion of **"Academic"** rigor and the brilliance of a **"Nova"**. The suffix **"-X"** symbolizes the unknown variables in research—the infinite possibilities and the "X-factor" that makes your work unique.*
+I am currently seeking PhD opportunities in computer vision, biomedical image analysis, and trustworthy AI.
 
-Born from the need for a balanced academic web presence, **AcaNova-X** is neither too cluttered nor too plain. It is the "Goldilocks" solution—elegant, feature-rich, and incredibly easy to maintain.
+## 🔗 Links
 
-### 🎥 Preview
+- Google Scholar: https://scholar.google.com/citations?user=NQGPCI0AAAAJ&hl=en
+- ORCID: https://orcid.org/0000-0001-6172-0931
+- GitHub: https://github.com/funkyZhaofour
+- LinkedIn: https://www.linkedin.com/in/shuo-zhao-456b12246/
 
-<div align="center">
-  <img src="docs/example.gif" width="100%" alt="Preview GIF" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <br>
-  <a href="https://github.com/yihangtao/AcaNova-X/blob/main/docs/example.mp4">
-    <i>(Click here to watch/download the HD MP4 video / 点击此处查看高清视频)</i>
-  </a>
-</div>
+## 📄 Template Acknowledgement
 
----
+This website is built based on the **AcaNova-X** academic homepage template.
 
-## ✨ Key Features
+If you find the template useful, please consider starring the original repository:
 
-### 1. Structured Profile & Research Vision
-<img src="docs/part1.png" width="100%" alt="Profile and Thrust" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
+👉 https://github.com/yihangtao/AcaNova-X
 
-*   **Active Seeker Highlight**: Clearly signals your availability for collaborations or internships.
-*   **Macro-to-Micro Vision**: The **Research Thrust** section guides visitors from your "Grand Vision" (Macro) to specific "Research Directions" (Micro).
+## 📧 Contact
 
-### 2. Dynamic News with a Human Touch
-<img src="docs/part2.png" width="100%" alt="News Section" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
-
-*   **Handwriting Style**: A distinct font choice for the News section differentiates "updates" from formal content.
-
-### 3. Interactive & Visual Publications
-<img src="docs/part3.png" width="100%" alt="Publications Section" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
-
-*   **Poster-Level Display**: The **"Image" button** expands entries to reveal posters or thumbnails directly in the list.
-*   **Smart Highlighting**: Built-in badges for **Oral** and **Spotlight**, plus automatic **CCF Rank** integration (e.g., CCF-A).
-
-### 4. Aesthetic Timeline & Professional Contact
-<img src="docs/part4.png" width="100%" alt="Honors and Service" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 20px;">
-
-*   **Elegant Flow**: Services and Education presented in a clean, vertical timeline.
-*   **Polished Contact Card**: A layout that balances professional accessibility with privacy.
-
----
-
-## 🚀 Quick Start
-
-1.  **Clone/Copy**: Copy the `AcaNova-X` folder to your web server or GitHub Pages repository.
-2.  **Personalize**:
-    *   Edit `index.html`: Update your name, bio, affiliation, and contact links.
-    *   Replace `assets/profile.jpg` with your own photo.
-3.  **Update Data**:
-    *   `data/publications.json`: Add your papers.
-    *   `data/news.json`: Add your latest news.
-    *   `data/honors.json`: Add your awards.
-
----
-
-<div align="center">
-  <h3>🌟 If you find this template useful, please give it a Star! 🌟</h3>
-  <p>Made with ❤️ by Ethan</p>
-</div>
+Email: zhaoshuoofcourse@gmail.com
