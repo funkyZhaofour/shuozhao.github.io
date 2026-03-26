@@ -47,9 +47,11 @@
                     <a href="#" class="text-xl lg:text-2xl font-serif font-semibold text-primary hover:text-accent transition-colors duration-200">
                         Shuo Zhao
                     </a>
-                    <div class="flex items-center gap-2">
-                        <button id="lang-en" class="px-3 py-1 rounded-md text-sm border border-neutral-300 hover:bg-neutral-100">EN</button>
-                        <button id="lang-zh" class="px-3 py-1 rounded-md text-sm border border-neutral-300 hover:bg-neutral-100">中文</button>
+
+                    <!-- Desktop language switch -->
+                    <div class="hidden lg:flex items-center gap-2">
+                        <button data-lang-switch="en" class="lang-switch-btn px-3 py-1 rounded-md text-sm border border-neutral-300 hover:bg-neutral-100">EN</button>
+                        <button data-lang-switch="zh" class="lang-switch-btn px-3 py-1 rounded-md text-sm border border-neutral-300 hover:bg-neutral-100">中文</button>
                     </div>
                 </div>
 
@@ -66,16 +68,11 @@
                         <li><a href="#work" class="nav-item" data-en="Work" data-zh="工作经历">Work</a></li>
                         <li><a href="#contact" class="nav-item" data-en="Contact" data-zh="联系方式">Contact</a></li>
                     </ul>
-
-                    <div class="flex items-center gap-2 ml-2">
-                        <button id="lang-en" class="px-3 py-1 rounded-md text-sm border border-neutral-300 hover:bg-neutral-100 lang-btn-active">EN</button>
-                        <button id="lang-zh" class="px-3 py-1 rounded-md text-sm border border-neutral-300 hover:bg-neutral-100">中文</button>
-                    </div>
                 </div>
 
                 <div class="lg:hidden flex items-center gap-2">
-                    <button id="lang-en-mobile" class="px-2 py-1 rounded-md text-xs border border-neutral-300 hover:bg-neutral-100 lang-btn-active">EN</button>
-                    <button id="lang-zh-mobile" class="px-2 py-1 rounded-md text-xs border border-neutral-300 hover:bg-neutral-100">中文</button>
+                    <button data-lang-switch="en" class="lang-switch-btn px-2 py-1 rounded-md text-xs border border-neutral-300 hover:bg-neutral-100">EN</button>
+                    <button data-lang-switch="zh" class="lang-switch-btn px-2 py-1 rounded-md text-xs border border-neutral-300 hover:bg-neutral-100">中文</button>
                     <button class="mobile-menu-btn p-2 rounded-md text-neutral-600 hover:text-primary">
                         <i class="fas fa-bars"></i>
                     </button>
@@ -142,11 +139,9 @@
                         </div>
 
                         <div class="research-interests-card bg-neutral-100 rounded-xl p-5 mb-6">
-                            <h3 class="font-serif font-bold text-lg text-primary mb-4 pb-2 border-b border-neutral-200 flex items-center"
-                                data-en="Research Interests"
-                                data-zh="研究兴趣">
+                            <h3 class="font-serif font-bold text-lg text-primary mb-4 pb-2 border-b border-neutral-200 flex items-center">
                                 <i class="fas fa-lightbulb text-accent mr-2 text-base"></i>
-                                <span>Research Interests</span>
+                                <span data-en="Research Interests" data-zh="研究兴趣">Research Interests</span>
                             </h3>
                             <ul class="space-y-3">
                                 <li class="flex items-center text-neutral-700 hover:text-primary transition-colors">
@@ -251,11 +246,9 @@
 
                             <div class="grid md:grid-cols-2 gap-6">
                                 <div class="thrust-card bg-neutral-50 rounded-xl p-5 border border-neutral-100 hover:shadow-md transition-all duration-300 group flex flex-col h-full">
-                                    <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors"
-                                        data-en="Biomedical Image Segmentation"
-                                        data-zh="生物医学图像分割">
+                                    <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors">
                                         <i class="fas fa-microscope text-accent mr-2 group-hover:scale-110 transition-transform"></i>
-                                        Biomedical Image Segmentation
+                                        <span data-en="Biomedical Image Segmentation" data-zh="生物医学图像分割">Biomedical Image Segmentation</span>
                                     </h3>
                                     <p class="text-sm leading-relaxed text-justify text-neutral-600 flex-grow"
                                        data-en="Developing robust and data-efficient segmentation methods for biomedical and medical imaging, including weak supervision, pseudo-labelling, and foundation-model-assisted annotation pipelines."
@@ -265,11 +258,9 @@
                                 </div>
 
                                 <div class="thrust-card bg-neutral-50 rounded-xl p-5 border border-neutral-100 hover:shadow-md transition-all duration-300 group flex flex-col h-full">
-                                    <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors"
-                                        data-en="Trustworthy & Multimodal AI"
-                                        data-zh="可信与多模态人工智能">
+                                    <h3 class="font-serif font-bold text-lg text-primary mb-4 flex items-center group-hover:text-accent transition-colors">
                                         <i class="fas fa-brain text-accent mr-2 group-hover:scale-110 transition-transform"></i>
-                                        Trustworthy &amp; Multimodal AI
+                                        <span data-en="Trustworthy & Multimodal AI" data-zh="可信与多模态人工智能">Trustworthy &amp; Multimodal AI</span>
                                     </h3>
                                     <p class="text-sm leading-relaxed text-justify text-neutral-600 flex-grow"
                                        data-en="Building interpretable and uncertainty-aware AI systems for multimodal healthcare data, with a focus on robustness, reliability, and deployment under real-world distribution shifts."
@@ -281,7 +272,6 @@
                         </div>
                     </section>
 
-                    <!-- Journey -->
                     <section id="journey" class="scroll-mt-24">
                         <div class="section-header mb-6">
                             <h2 class="text-3xl font-serif font-bold text-primary"
@@ -412,9 +402,9 @@
                             <h2 class="text-3xl font-serif font-bold text-primary"
                                 data-en="🔥 News"
                                 data-zh="🔥 动态">🔥 News</h2>
-                            <a href="pages/all-news.html" class="text-sm font-medium text-accent hover:text-accent-dark transition-colors"
-                               data-en="View All"
-                               data-zh="查看全部">View All <i class="fas fa-arrow-right ml-1"></i></a>
+                            <a href="pages/all-news.html" class="text-sm font-medium text-accent hover:text-accent-dark transition-colors">
+                                <span data-en="View All" data-zh="查看全部">View All</span> <i class="fas fa-arrow-right ml-1"></i>
+                            </a>
                         </div>
                         <div id="news-container" class="news-list space-y-4">
                             <!-- Dynamic Content loaded from data/news.json -->
@@ -440,9 +430,9 @@
                             <h2 class="text-3xl font-serif font-bold text-primary"
                                 data-en="🏆 Honors & Awards"
                                 data-zh="🏆 荣誉与奖励">🏆 Honors &amp; Awards</h2>
-                            <a href="pages/all-honors.html" class="text-sm font-medium text-accent hover:text-accent-dark transition-colors"
-                               data-en="View All"
-                               data-zh="查看全部">View All <i class="fas fa-arrow-right ml-1"></i></a>
+                            <a href="pages/all-honors.html" class="text-sm font-medium text-accent hover:text-accent-dark transition-colors">
+                                <span data-en="View All" data-zh="查看全部">View All</span> <i class="fas fa-arrow-right ml-1"></i>
+                            </a>
                         </div>
                         <div id="honors-container" class="honors-list space-y-4">
                             <!-- Dynamic Content loaded from data/honors.json -->
@@ -677,8 +667,7 @@
     <script src="script.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        const enBtns = [document.getElementById("lang-en"), document.getElementById("lang-en-mobile")];
-        const zhBtns = [document.getElementById("lang-zh"), document.getElementById("lang-zh-mobile")];
+        const langBtns = document.querySelectorAll("[data-lang-switch]");
 
         function setLanguage(lang) {
           const elements = document.querySelectorAll("[data-en][data-zh]");
@@ -689,23 +678,15 @@
           document.documentElement.lang = lang === "zh" ? "zh" : "en";
           localStorage.setItem("site-language", lang);
 
-          enBtns.forEach(btn => {
-            if (!btn) return;
-            btn.classList.toggle("lang-btn-active", lang === "en");
-          });
-
-          zhBtns.forEach(btn => {
-            if (!btn) return;
-            btn.classList.toggle("lang-btn-active", lang === "zh");
+          langBtns.forEach(btn => {
+            btn.classList.toggle("lang-btn-active", btn.dataset.langSwitch === lang);
           });
         }
 
-        enBtns.forEach(btn => {
-          if (btn) btn.addEventListener("click", () => setLanguage("en"));
-        });
-
-        zhBtns.forEach(btn => {
-          if (btn) btn.addEventListener("click", () => setLanguage("zh"));
+        langBtns.forEach(btn => {
+          btn.addEventListener("click", () => {
+            setLanguage(btn.dataset.langSwitch);
+          });
         });
 
         const savedLang = localStorage.getItem("site-language") || "en";
