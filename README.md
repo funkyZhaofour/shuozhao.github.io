@@ -2,7 +2,7 @@
 
 This repository hosts my personal academic homepage.
 
-🌐 Website: https://funkyzhaofour.github.io
+🌐 Website: https://funkyzhaofour.github.io/shuozhao.github.io/
 
 ## 👨‍💻 About Me
 
